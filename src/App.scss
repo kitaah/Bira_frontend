@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+html,
+body {
+  font-family: 'Roboto';
+  background-color: #17a2b8;
+}
+
+main {
+  padding: 8rem 0 5rem 0;
+}
+
+footer {
+  margin-top: 40rem;
+}
+
+.logo-img {
+  width: 5rem !important;
+}
+
+.line-break::before {
+  content: "\a";
+  white-space: pre;
+}
+
+.link-to-allproducts,
+.link-to-allcategories {
+  width: 25rem;
+  border: 0.1rem solid transparent;
+  border-radius: 5rem;
+}
+
+.link-to-allproducts:hover,
+.link-to-allcategories:hover {
+  transform: scale(1.05);
+  transition: 0.5s ease-in;
+}
+
+table {
+  vertical-align: middle !important;
+}
+
+.search-bar {
+  width: 25rem;
+}
