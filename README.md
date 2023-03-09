@@ -24,6 +24,7 @@ La partie back-end de l'application est accessible à partir du lien suivant:
 
 - **IDE:** Visual Studio
 - **Base de données:** PostgreSQL
+- **Manipulation d'API:** Swagger
 - **Création de compte et connexion:** Firebase
 - **Gestion de version**: Git
 
